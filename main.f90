@@ -24,6 +24,6 @@ call ftime_stop('second')
 
 call ftime_print(stdout)
 
-!call ftime_cleanup()
+call ftime_cleanup()
 
 endprogram main
